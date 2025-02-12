@@ -17,7 +17,7 @@ A **responsive landing page** for students who want to study MBBS abroad. This p
 *(Add an actual screenshot of the website here.)*
 
 ## 🚀 Live Demo
-🔗 **[View Live Project](https://your-netlify-or-vercel-link.com/)**  
+🔗 **[View Live Project](https://study-mbbs-abroad-azure.vercel.app/)**  
 
 *(Replace with your deployed Netlify/Vercel link.)*
 
