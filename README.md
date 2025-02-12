@@ -1,42 +1,62 @@
-# Study MBBS Abroad - Landing Page
-
-A **responsive landing page** for students who want to study MBBS abroad. This project is part of the **University Insights Front-End Development Internship Assignment**.
-
-## 🌟 Features
-- ✅ Responsive design using **HTML, CSS, and JavaScript**
-- ✅ **Engaging hero section** with CTA button ("Apply Now")
-- ✅ **Why Study MBBS Abroad?** - Key benefits section
-- ✅ **Top Country Listings** (Russia, Uzbekistan, Kazakhstan, etc.)
-- ✅ **Admission Process & Eligibility** - Step-by-step guide
-- ✅ **Lead Form with Validation** (Name, Email, Phone, Country Preference)
-- ✅ SEO optimized, fast loading & mobile-friendly
-
-## 📸 Screenshots
-![Landing Page Preview](screenshot.png)
-
-*(Add an actual screenshot of the website here.)*
+# Study MBBS Abroad - Responsive Landing Page
 
 ## 🚀 Live Demo
-🔗 **[View Live Project](https://study-mbbs-abroad-azure.vercel.app/)**  
+[Study MBBS Abroad - Live Site](https://study-mbbs-abroad-azure.vercel.app/)
 
-*(Replace with your deployed Netlify/Vercel link.)*
+## 📌 Project Overview
+This is a **responsive landing page** designed for students interested in studying MBBS abroad. The page provides details about countries, program benefits, admission process, and includes a lead generation form.
+
+## 📋 Features
+- **Fully Responsive UI** (Optimized for mobile, tablet, and desktop)
+- **Engaging Hero Section** with CTA ("Apply Now for MBBS Abroad")
+- **Key Benefits** of studying MBBS abroad
+- **Country Listings** (Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, Egypt)
+- **Step-by-Step Admission Process**
+- **Lead Capture Form** (Name, Email, Phone, Preferred Country)
+- **Form Validation using JavaScript**
+- **SEO Optimized & Fast Loading**
+- **Google Analytics & Facebook Pixel Ready**
 
 ## 🛠️ Technologies Used
-- **HTML, CSS** (for structure & styling)
-- **JavaScript** (for form validation & interactivity)
-- **Google Analytics & Facebook Pixel (optional)**
+- **HTML** - Page structure
+- **CSS (TailwindCSS/Bootstrap)** - Styling & responsiveness
+- **JavaScript** - Form validation & interactivity
+- **Vercel** - Deployment
+- **GitHub** - Version control & project hosting
 
 ## 🔧 Installation & Setup
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/study-mbbs-landing.git
-
+   ```bash
+   git clone https://github.com/Kunalkumarxyz/study-mbbs-abroad.git
+   ```
 2. Navigate to the project folder:
-   ```sh
-    cd study-mbbs-landing
+   ```bash
+   cd study-mbbs-abroad
+   ```
+3. Open `index.html` in a browser:
+   ```bash
+   open index.html  # MacOS
+   start index.html # Windows
+   ```
+4. Alternatively, you can use Live Server in VS Code.
 
-## 📞 Contact
-For any queries, reach out to:
-📧 Email: kunalkumarxyz@hotmail.com
-🔗 GitHub: **[Kunal Kumar](https://github.com/Kunalkumarxyz)**
-🔗 LinkedIn: **[Kunal Kumar](https://www.linkedin.com/in/kunalkumarxyz/)**
+## 📝 How to Apply?
+1. Fill in your **Full Name, Email, Phone Number, and Preferred Country**.
+2. Click on the **Apply Now** button.
+3. Your details will be submitted for further processing.
+
+## 📌 Deployment
+- The project is deployed on **Vercel** for fast and reliable hosting.
+- Live Link: [https://study-mbbs-abroad-azure.vercel.app/](https://study-mbbs-abroad-azure.vercel.app/)
+
+## 📬 Contact
+For any queries, feel free to reach out:
+- **Email:** kunalkumarxyz@hotmail.com
+- **GitHub:** [GitHub - Kunal Kumar](https://github.com/Kunalkumarxyz)
+- **LinkedIn:** [LinkedIn - Kunal Kumar](https://www.linkedin.com/in/kunalkumarxyz)
+
+---
+**📢 Note:** If you face any issue while running the project, feel free to create an issue on GitHub.
+
+---
+© 2025 University Insights. All Rights Reserved.
