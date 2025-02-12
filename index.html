@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study MBBS Abroad</title>
+    <title>Study MBBS Abroad - Yaroslavl State Medical University</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Study MBBS Abroad</h1>
-        <p>Apply Now for MBBS Abroad!</p>
-        <button onclick="scrollToForm()">Apply Now</button>
+        <h1>Study MBBS in Russia at Yaroslavl State Medical University</h1>
+        <p>Affordable education with global recognition</p>
+        <button class="cta-button">Apply Now for MBBS in Russia</button>
     </header>
     
     <section id="why-study">
         <h2>Why Study MBBS Abroad?</h2>
-        <p>Key benefits of studying MBBS in foreign universities.</p>
+        <p>✔ Affordable tuition fees compared to other countries</p>
+        <p>✔ Globally recognized degree with WHO & MCI accreditation</p>
+        <p>✔ High-quality education with modern facilities</p>
     </section>
-
-    <section id="countries">
-        <h2>Top Countries</h2>
+    
+    <section id="top-countries">
+        <h2>Top Countries for MBBS</h2>
         <ul>
-            <li>Russia</li>
+            <li><strong>Russia:</strong> Yaroslavl State Medical University</li>
             <li>Uzbekistan</li>
             <li>Kazakhstan</li>
             <li>Philippines</li>
@@ -30,39 +33,56 @@
             <li>Egypt</li>
         </ul>
     </section>
-
+    
     <section id="admission-process">
         <h2>Admission Process & Eligibility</h2>
-        <p>Step-by-step guide for applying.</p>
+        <ol>
+            <li>✔ Must have completed 12th with PCB (Physics, Chemistry, Biology)</li>
+            <li>✔ Minimum 50% marks for General & 40% for Reserved categories</li>
+            <li>✔ NEET Qualification is mandatory</li>
+            <li>✔ Apply online & submit required documents</li>
+            <li>✔ Receive admission confirmation & apply for a student visa</li>
+        </ol>
     </section>
-
+    
+    <section id="fee-structure">
+        <h2>Fee Structure</h2>
+        <p><strong>Tuition Fees:</strong> $4000 - $5000 per year</p>
+        <p><strong>Hostel Fees:</strong> $500 - $1000 per year</p>
+    </section>
+    
+    <section id="challenges-benefits">
+        <h2>Challenges & Benefits</h2>
+        <p>✔ Language barrier (Russian language training provided)</p>
+        <p>✔ Climate adaptation (Winter preparation needed)</p>
+        <p>✔ Cultural differences (Support for international students available)</p>
+    </section>
+    
+    <section id="living-conditions">
+        <h2>Living Conditions for International Students</h2>
+        <p>✔ Hostel accommodations with modern facilities</p>
+        <p>✔ Affordable food & transportation</p>
+        <p>✔ Student healthcare & support services</p>
+    </section>
+    
     <section id="apply-form">
         <h2>Apply Now</h2>
         <form id="lead-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" required>
-
-            <label for="country">Preferred Country:</label>
-            <select id="country">
-                <option value="Russia">Russia</option>
-                <option value="Uzbekistan">Uzbekistan</option>
-                <option value="Kazakhstan">Kazakhstan</option>
-                <option value="Philippines">Philippines</option>
-                <option value="Georgia">Georgia</option>
-                <option value="Kyrgyzstan">Kyrgyzstan</option>
-                <option value="Egypt">Egypt</option>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <select name="country">
+                <option value="">Select Preferred Country</option>
+                <option value="russia">Russia</option>
+                <option value="uzbekistan">Uzbekistan</option>
+                <option value="kazakhstan">Kazakhstan</option>
             </select>
-
             <button type="submit">Submit</button>
         </form>
     </section>
-
-    <script src="script.js"></script>
+    
+    <footer>
+        <p>&copy; 2025 Study MBBS Abroad. All rights reserved.</p>
+    </footer>
 </body>
 </html>
